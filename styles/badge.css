@@ -1,0 +1,16 @@
+.container{
+    border: 3px solid rgb(97, 75, 35);
+}
+.card-1{
+    border: 2px solid gray;
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #4f9b9b;
+    box-shadow: 5px 10px 10px rgb(87, 64, 218);
+}
+.badge p{
+    background-color: rgb(61, 61, 219);
+    font-size: 2rem;
+}

@@ -35,5 +35,11 @@
     background-color: transparent;
     border-radius: 15px;
 }
+.badge h3{
+    background-color: #0e73ee;
+    border-radius: 6px;
+    padding: 8px ;
+}
+
 
 

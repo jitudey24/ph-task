@@ -1,3 +1,10 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+ body{
+    margin-bottom: 100px;
+ }
 .navbar{
     background-color: #1f2937;
     display: flex;
@@ -31,4 +38,80 @@
 }
 .btn:hover{
     background-color: #bab843;
+}
+.msg{
+    text-align: center;
+}
+.main-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card{
+    border: 2px solid gainsboro;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    background-color:#9f9696;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+.card p{
+    font-size: 1.2rem;
+}
+.card ul{
+    list-style: none;
+}
+.card button{
+    padding: 8px 25px;
+    border-radius:15px ;
+}
+.card button:hover{
+    background-color:cadetblue;
+}
+.table-header{
+    text-align: center;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+td, th{
+    border: 2px solid gray;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+th{
+    background-color:antiquewhite;
+}
+table{
+border-collapse: collapse;
+}
+tfoot{
+    text-align: center;
+    font-size: 0.7rem;
+}
+footer{
+    background-color: #5b9d92;
+    border: 3px solid gainsboro;
+    border-radius:6px ;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 70px;
+}
+.footer-btn{
+    padding: auto;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+.footer-btn:hover{
+    background-color:#bab843;
 }
